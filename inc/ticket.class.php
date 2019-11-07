@@ -318,7 +318,7 @@ class PluginCreditTicket extends CommonDBTM {
          $ticket = $params['options']['item'];
       }
 
-      // No parent of type Ticket found, parent might we might be an another
+      // No parent of type Ticket found, parent might we might be another
       // type of CommonITILObject so we should exit here
       if ($ticket === null) {
          return;
